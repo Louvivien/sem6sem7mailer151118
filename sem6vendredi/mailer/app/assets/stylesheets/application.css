@@ -1,0 +1,147 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+  background-blend-mode: multiply;
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+  padding-bottom: 120px;
+}
+
+.my-own {
+  background: #000;  /* fallback for old browsers */
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background: #000;  /* fallback for old browsers */
+  text-align: center;
+  color: #fff;
+}
+
+.footer-copyright a {
+  color: #fff;
+  text-decoration: none!important;
+}
+.footer-copyright a:visited {
+  color: #fff;
+}
+
+.footer-copyright a:hover {
+  color: #cf556c;
+}
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  opacity: 0.9;
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background: darkred;
+  color: white;
+  padding: 12px 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #fff;
+  opacity: 0.6;
+  color: #000;
+  border: 1px solid transparent;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 20px;
+}
+
+.margin-header {
+  margin-top: 50px;
+}
+
+.margin-header-bis {
+margin-top: 150px;
+}
+
+.left {
+  margin-left: 30px;
+}
+
+blockquote p::before {
+  content: '\201C';
+}
+
+blockquote p::after {
+  content: '\201D';
+}
+
+.navbar-brand {
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  color: red!important;
+}
+
+.btn-hover {
+  background: darkred;
+  color: #fff;
+  border: 1px solid darkred;
+}
+
+.btn-hover:hover {
+  background: rgb(160, 8, 8);
+  color: #fff;
+  border: 1px solid darkred;
+}
+
+.btn-logout {
+  background: #41295a;
+}
+
+.btn-logout:hover {
+  background: #e53935;
+  color: #fff;
+}
+
+.btn-width {
+  width: 200px;
+}
+
+.centered-and-cropped { 
+  object-fit: cover
+}
+
+img:hover {
+  opacity: 0.5;
+  transition: .5s ease;
+}

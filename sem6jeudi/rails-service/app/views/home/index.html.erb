@@ -1,0 +1,13 @@
+
+
+<h1 style="font-family: 'Roboto Mono', monospace; text-align: center;">Welcome to the CryptoCurrency Website</h1>
+
+
+<%= form_for @crypto, url: home_show_path do |f| %>
+<div class="form-group">
+      <label>Choix de la crypto</label>  
+      <%= f.collection_select :id, Cryptodb.order(:currency),:id,:currency, {include_blank: false} %>
+      <%= f.submit "Search"%>
+</div>
+
+<% end %>

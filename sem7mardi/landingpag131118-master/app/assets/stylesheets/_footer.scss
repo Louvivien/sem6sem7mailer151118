@@ -1,0 +1,29 @@
+footer {
+
+
+    bottom: 15px;
+
+
+    margin-top: 100px;
+
+    background-color: black;
+    color: white;
+  	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	border-radius: 10px;
+
+
+}
+   
+footer li {
+    list-style-type: none;
+
+}
+
+footer a {
+
+color: white;
+text-decoration: none;
+
+}
